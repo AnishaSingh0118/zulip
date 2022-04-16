@@ -36,10 +36,14 @@
             border-radius: 4px 0 0 4px;
         }
 
-        .pill-value {
+         .pill-value {
             margin: 0 5px;
+            white-space: nowrap;
+            width: 50px;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
-
+        
         .exit {
             opacity: 0.5;
             font-size: 1.3em;
